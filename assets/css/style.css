@@ -4508,8 +4508,8 @@ label {
       -ms-flex: none;
           flex: none;
   margin-left: auto;
-  overflow: auto;
   padding: 70px 50px 50px 50px;
+  box-sizing: border-box;
   position: relative;
   z-index: 2;
   right: -500px;
