@@ -40,7 +40,11 @@
         <div class="container">
           <div class="cs_main_header_in">
             <div class="cs_main_header_left" style="height: 100%">
-              <a class="cs_site_branding" style="height: 100%" href="index.html">
+              <a
+                class="cs_site_branding"
+                style="height: 100%"
+                href="index.html"
+              >
                 <img
                   src="assets/img/agricare-logo.png"
                   style="width: auto; height: 100%"
@@ -51,12 +55,11 @@
             <div class="cs_main_header_center">
               <div class="cs_nav">
                 <ul class="cs_nav_list">
-                  <li><a href="about.html">About</a></li>
                   <li class="menu-item-has-children">
                     <a href="#">Products</a>
                     <ul>
-                      <li><a href="n-max.html">N-MAX</a></li>
-                      <li><a href="r-max.html">R-MAX</a></li>
+                      <li><a href="assets/docs/n-max.pdf">N-MAX</a></li>
+                      <li><a href="assets/docs/r-max.pdf">R-MAX</a></li>
                     </ul>
                   </li>
                   <li><a href="contact.html">Contact</a></li>
@@ -125,24 +128,29 @@
       <div class="cs_side_header_in">
         <div class="cs_side_header_shape"></div>
         <a class="cs_site_branding" href="index.html">
-          <img src="assets/img/agricare-logo.png" alt="Logo" style="width: auto; height: 100px" />
+          <img
+            src="assets/img/agricare-logo.png"
+            alt="Logo"
+            style="width: auto; height: 100px"
+          />
         </a>
         <div class="cs_side_header_box">
           <h3 class="cs_side_header_title cs_heading_color">Contact Us</h3>
           <ul class="cs_side_header_contact_info cs_mp_0">
             <li>
-              <i class="fa-solid fa-phone"></i>
-              <span><a href="tel:+444547800112">+44 454 7800 112</a></span>
-            </li>
-            <li>
               <i class="fa-solid fa-envelope"></i>
               <span
-                ><a href="mailto:example@gmail.com">example@gmail.com</a></span
+                ><a href="mailto:sales@agricaretech.com"
+                  >sales@agricaretech.com</a
+                ></span
               >
             </li>
             <li>
               <i class="fa-solid fa-location-dot"></i>
-              <span>50 Wall Street Suite, 44150 <br />Ohio, United States</span>
+              <span
+                >25 De Abril 292 1A, São José de São Lázaro, 4710-914 Braga,
+                Portugal</span
+              >
             </li>
           </ul>
         </div>
@@ -194,16 +202,19 @@
         <div class="cs_side_header_box">
           <h3 class="cs_side_header_title cs_heading_color">Follow Us</h3>
           <div class="cs_social_btns cs_style_1">
-            <a href="#" class="cs_center">
+            <a
+              href="https://www.linkedin.com/company/agricare-technologies"
+              class="cs_center"
+            >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="#" class="cs_center">
+            <a href="https://x.com/AgriCareTech?s=08" class="cs_center">
               <i class="fa-brands fa-twitter"></i>
             </a>
-            <a href="#" class="cs_center">
-              <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.instagram.com/agricaretech/" class="cs_center">
+              <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="#" class="cs_center">
+            <a href="https://www.facebook.com/AgriCareTech" class="cs_center">
               <i class="fa-brands fa-facebook-f"></i>
             </a>
           </div>
@@ -257,7 +268,7 @@
                     ecosystem restoration, while enhancing plant health,
                     productivity, and quality.
                   </p>
-                  <a href="about.html" class="cs_btn cs_style_1">
+                  <!-- <a href="about.html" class="cs_btn cs_style_1">
                     About Us
                     <i>
                       <svg
@@ -289,7 +300,7 @@
                         />
                       </svg>
                     </i>
-                  </a>
+                  </a> -->
                 </div>
               </div>
               <div class="cs_slide">
@@ -302,7 +313,7 @@
                     R-MAX, a root growth and soil health optimizing product and
                     N-MAX, a precision nutrient delivery product for your crops.
                   </p>
-                  <a href="about.html" class="cs_btn cs_style_1">
+                  <a href="assets/docs/n-max.pdf" class="cs_btn cs_style_1">
                     N-MAX
                     <i>
                       <svg
@@ -336,7 +347,7 @@
                     </i>
                   </a>
                   <a
-                    href="about.html"
+                    href="assets/docs/r-max.pdf"
                     class="cs_btn cs_style_1"
                     style="margin-left: 20px"
                   >
@@ -448,7 +459,7 @@
           <div class="col-lg-4">
             <div class="cs_iconbox cs_style_1">
               <div class="cs_iconbox_icon cs_mb_26 cs_mb_lg_20">
-                <img src="assets/img/nature/sustainable_living.png" alt="" />
+                <img src="assets/img/nature/climate_change_icon.svg" alt="" />
               </div>
               <h2 class="cs_fs_38 cs_semibold cs_mb_22 cs_mb_lg_15">VISION</h2>
               <p class="mb-0">
@@ -484,12 +495,40 @@
       <div class="container">
         <div class="row align-items-center cs_gap_y_50">
           <div
-            class="col-lg-6 wow fadeIn"
+            class="col-lg-6 d-flex justify-content-center wow fadeIn"
             data-wow-duration="0.8s"
             data-wow-delay="0.25s"
           >
-            <a
-              href="https://www.youtube.com/embed/rRid6GCJtgc"
+            <video
+              controls
+              src="assets/agricare-info.mp4"
+              class="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center"
+              data-src="assets/img/nature/video_block_bg.jpg"
+              style="width: 80%; height: 80%; object-fit: cover"
+              onclick="hidePlayerButton()"
+            ></video>
+            <span id="player-button" class="cs_player_btn cs_white_color">
+              <svg
+                width="70"
+                height="70"
+                viewBox="0 0 70 70"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M35 0C15.7004 0 0 15.7004 0 35C0 54.2996 15.7004 70 35 70C54.2996 70 70 54.2996 70 35C70 15.7004 54.2996 0 35 0ZM35 64.1667C18.9175 64.1667 5.83333 51.0825 5.83333 35C5.83333 18.9175 18.9175 5.83333 35 5.83333C51.0825 5.83333 64.1667 18.9175 64.1667 35C64.1667 51.0825 51.0825 64.1667 35 64.1667ZM23.3333 51.4704L52.6167 35L23.3333 18.5296V51.4733V51.4704ZM29.1667 28.5017L40.7167 35L29.1667 41.4983V28.5017Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <!-- <iframe
+              src="https://drive.google.com/file/d/1Izt3A44dSL8IQhOD0y5jwaSqdUyPEXYq/preview"
+              width="640"
+              height="480"
+              allow="autoplay"
+            ></iframe> -->
+            <!-- <a
+              href="https://drive.google.com/file/d/1Izt3A44dSL8IQhOD0y5jwaSqdUyPEXYq/preview"
               class="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center"
               data-src="assets/img/nature/video_block_bg.jpg"
             >
@@ -507,7 +546,7 @@
                   />
                 </svg>
               </span>
-            </a>
+            </a> -->
           </div>
           <div
             class="col-lg-6 wow fadeInRight"
@@ -722,42 +761,6 @@
                     nutrients and water from the soil, leading to healthier and
                     stronger plants.
                   </p>
-                  <a
-                    href="service-details.html"
-                    class="cs_btn cs_style_2 cs_heading_color"
-                  >
-                    Learn More
-                    <i>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </i>
-                  </a>
                 </div>
               </div>
               <div class="cs_slide">
@@ -775,42 +778,6 @@
                     that they can't usually get on their own, improving overall
                     plant health.
                   </p>
-                  <a
-                    href="service-details.html"
-                    class="cs_btn cs_style_2 cs_heading_color"
-                  >
-                    Learn More
-                    <i>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </i>
-                  </a>
                 </div>
               </div>
               <div class="cs_slide">
@@ -828,42 +795,6 @@
                     enhancing soil structure, and increasing organic matter in
                     plants.
                   </p>
-                  <a
-                    href="service-details.html"
-                    class="cs_btn cs_style_2 cs_heading_color"
-                  >
-                    Learn More
-                    <i>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </i>
-                  </a>
                 </div>
               </div>
               <div class="cs_slide">
@@ -881,42 +812,6 @@
                     diseases and pests, reducing the need for chemical
                     treatments.
                   </p>
-                  <a
-                    href="service-details.html"
-                    class="cs_btn cs_style_2 cs_heading_color"
-                  >
-                    Learn More
-                    <i>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </i>
-                  </a>
                 </div>
               </div>
               <div class="cs_slide">
@@ -934,42 +829,6 @@
                     enhancing their ability to absorb water and nutrients from
                     the soil.
                   </p>
-                  <a
-                    href="service-details.html"
-                    class="cs_btn cs_style_2 cs_heading_color"
-                  >
-                    Learn More
-                    <i>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="10"
-                        height="10"
-                        viewBox="0 0 10 10"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 9L9 1M9 1L1 1M9 1L9 9"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        ></path>
-                      </svg>
-                    </i>
-                  </a>
                 </div>
               </div>
             </div>
@@ -1010,10 +869,11 @@
         </div>
       </div>
     </div> -->
-    <div class="cs_height_125 cs_height_lg_60"></div>
+    <!-- <div class="cs_height_125 cs_height_lg_60"></div> -->
     <!-- End Funfact  -->
     <!-- Start Faq Section -->
-    <section class="cs_gray_bg_2">
+
+    <!-- <section class="cs_gray_bg_2">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
@@ -1044,7 +904,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- .cs_accordian -->
                 <div class="cs_accordian">
                   <div class="cs_accordian_head">
                     <h2 class="cs_accordian_title cs_fs_21 cs_semibold">
@@ -1062,7 +921,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- .cs_accordian -->
                 <div class="cs_accordian">
                   <div class="cs_accordian_head">
                     <h2 class="cs_accordian_title cs_fs_21 cs_semibold">
@@ -1080,7 +938,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- .cs_accordian -->
                 <div class="cs_accordian">
                   <div class="cs_accordian_head">
                     <h2 class="cs_accordian_title cs_fs_21 cs_semibold">
@@ -1098,7 +955,6 @@
                     </p>
                   </div>
                 </div>
-                <!-- .cs_accordian -->
               </div>
               <div class="cs_height_100 cs_height_lg_50"></div>
             </div>
@@ -1114,7 +970,8 @@
         </div>
       </div>
       <div class="cs_height_0 cs_height_lg_80"></div>
-    </section>
+    </section> -->
+
     <!-- End Faq Section -->
     <!-- Start Donation Section -->
     <!-- <section>
@@ -1421,23 +1278,25 @@
           >
             <div class="cs_slider_wrapper">
               <div class="cs_slide">
-                <div class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg">
+                <div
+                  class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg"
+                  style="height: 470px"
+                >
                   <div class="cs_testimonial_avatar cs_mb_42">
-                    <img
-                      src="assets/img/nature/avatar_img_1.png"
-                      alt="Avatar"
-                    />
+                    <img src="assets/img/testimonial-1.png" alt="Avatar" />
                     <div class="cs_testimonial_avatar_right">
                       <h3 class="cs_fs_21 cs_semibold cs_mb_2">Angrew Bolar</h3>
                       <p class="mb-0 cs_accent_color">Volunteer</p>
                     </div>
                   </div>
                   <blockquote class="cs_fs_18 cs_mb_45">
-                    The resources have been a tremendous help in making my
-                    lifestyle more eco-friendly. Plus, the campaigns are a
-                    fantastic way to get involved. Keep up the excellent work!
+                    "As a sustainable agriculture advocate, I'm impressed with
+                    AgriCare's commitment to eco-friendly solutions. Their
+                    products have helped us reduce our reliance on chemical
+                    fertilizers and pesticides, while improving our bottom
+                    line."
                   </blockquote>
-                  <div class="cs_rating cs_accent_color" data-rating="5">
+                  <!-- <div class="cs_rating cs_accent_color" data-rating="5">
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -1450,60 +1309,28 @@
                       <i class="fa-solid fa-star fa-fw"></i>
                       <i class="fa-solid fa-star fa-fw"></i>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="cs_slide">
-                <div class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg">
+                <div
+                  class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg"
+                  style="height: 470px"
+                >
                   <div class="cs_testimonial_avatar cs_mb_42">
-                    <img
-                      src="assets/img/nature/avatar_img_2.png"
-                      alt="Avatar"
-                    />
-                    <div class="cs_testimonial_avatar_right">
-                      <h3 class="cs_fs_21 cs_semibold cs_mb_2">Milisa Geui</h3>
-                      <p class="mb-0 cs_accent_color">Volunteer</p>
-                    </div>
-                  </div>
-                  <blockquote class="cs_fs_18 cs_mb_45">
-                    I particularly appreciate the emphasis on practical tips for
-                    sustainable living. It's refreshing to find a place that not
-                    only highlights the issues but also provides solutions.
-                  </blockquote>
-                  <div class="cs_rating cs_accent_color" data-rating="5">
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <div class="cs_rating_percentage">
-                      <i class="fa-solid fa-star fa-fw"></i>
-                      <i class="fa-solid fa-star fa-fw"></i>
-                      <i class="fa-solid fa-star fa-fw"></i>
-                      <i class="fa-solid fa-star fa-fw"></i>
-                      <i class="fa-solid fa-star fa-fw"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cs_slide">
-                <div class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg">
-                  <div class="cs_testimonial_avatar cs_mb_42">
-                    <img
-                      src="assets/img/nature/avatar_img_3.png"
-                      alt="Avatar"
-                    />
+                    <img src="assets/img/testimonial-2.png" alt="Avatar" />
                     <div class="cs_testimonial_avatar_right">
                       <h3 class="cs_fs_21 cs_semibold cs_mb_2">Michaku</h3>
                       <p class="mb-0 cs_accent_color">Volunteer</p>
                     </div>
                   </div>
                   <blockquote class="cs_fs_18 cs_mb_45">
-                    I love being part of a community that cares about the
-                    planet, and this website has been instrumental in connecting
-                    me with like-minded individuals. Thank you!
+                    "AgriCare Technologies' products have revolutionized our
+                    farming practices. R-Max has significantly improved our soil
+                    health, while N-Max has boosted our crop yields. We're
+                    thrilled with the results!"
                   </blockquote>
-                  <div class="cs_rating cs_accent_color" data-rating="5">
+                  <!-- <div class="cs_rating cs_accent_color" data-rating="5">
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -1516,27 +1343,27 @@
                       <i class="fa-solid fa-star fa-fw"></i>
                       <i class="fa-solid fa-star fa-fw"></i>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="cs_slide">
-                <div class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg">
+                <div
+                  class="cs_testimonial cs_style_1 cs_shadow_1 cs_white_bg"
+                  style="height: 470px"
+                >
                   <div class="cs_testimonial_avatar cs_mb_42">
-                    <img
-                      src="assets/img/nature/avatar_img_2.png"
-                      alt="Avatar"
-                    />
+                    <img src="assets/img/testimonial-3.png" alt="Avatar" />
                     <div class="cs_testimonial_avatar_right">
                       <h3 class="cs_fs_21 cs_semibold cs_mb_2">Milisa Geui</h3>
                       <p class="mb-0 cs_accent_color">Volunteer</p>
                     </div>
                   </div>
                   <blockquote class="cs_fs_18 cs_mb_45">
-                    I particularly appreciate the emphasis on practical tips for
-                    sustainable living. It's refreshing to find a place that not
-                    only highlights the issues but also provides solutions.
+                    "AgriCare's technical support and expertise have been
+                    invaluable. They've helped us achieve significant
+                    improvements in crop quality and yield."
                   </blockquote>
-                  <div class="cs_rating cs_accent_color" data-rating="5">
+                  <!-- <div class="cs_rating cs_accent_color" data-rating="5">
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
@@ -1549,7 +1376,7 @@
                       <i class="fa-solid fa-star fa-fw"></i>
                       <i class="fa-solid fa-star fa-fw"></i>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -1620,21 +1447,20 @@
           <div class="col-lg-6">
             <div class="cs_team cs_style_1">
               <div class="cs_team_thumb">
-                <img src="assets/img/nature/team_member_1.jpg" alt="" />
+                <img src="assets/img/team/derick-smith.png" alt="" />
               </div>
               <div class="cs_team_right">
                 <p class="text-uppercase cs_accent_color cs_mb_1">
-                  CEO FOUNDER
+                  Chief Executive Officer
                 </p>
-                <h3 class="cs_fs_38 cs_mb_18">Jhon Beboral</h3>
+                <h3 class="cs_fs_38 cs_mb_18">Derick Smith</h3>
                 <hr class="cs_mb_12" />
-                <p class="cs_mb_20">
-                  Team component built to improve trust and culture within your.
-                </p>
+                <p class="cs_mb_20">derick@agricaretech.com</p>
                 <div class="cs_team_social_list cs_heading_color">
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <!-- <a href="https://www.facebook.com/AgriCareTech"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://x.com/AgriCareTech?s=08"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/agricaretech/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/agricare-technologies"><i class="fa-brands fa-linkedin-in"></i></a> -->
                 </div>
               </div>
             </div>
@@ -1642,19 +1468,20 @@
           <div class="col-lg-6">
             <div class="cs_team cs_style_1">
               <div class="cs_team_thumb">
-                <img src="assets/img/nature/team_member_2.jpg" alt="" />
+                <img src="assets/img/team/rakesh-rajagopal.png" alt="" />
               </div>
               <div class="cs_team_right">
-                <p class="text-uppercase cs_accent_color cs_mb_1">VOLUNTEER</p>
-                <h3 class="cs_fs_38 cs_mb_18">Peter Dobar</h3>
-                <hr class="cs_mb_12" />
-                <p class="cs_mb_20">
-                  Team component built to improve trust and culture within your.
+                <p class="text-uppercase cs_accent_color cs_mb_1">
+                  Chief Strategy Officer
                 </p>
+                <h3 class="cs_fs_38 cs_mb_18">Rakesh Rajagopal</h3>
+                <hr class="cs_mb_12" />
+                <p class="cs_mb_20">raj@agricaretech.com</p>
                 <div class="cs_team_social_list cs_heading_color">
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <!-- <a href="https://www.facebook.com/AgriCareTech"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://x.com/AgriCareTech?s=08"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/agricaretech/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/agricare-technologies"><i class="fa-brands fa-linkedin-in"></i></a> -->
                 </div>
               </div>
             </div>
@@ -1662,19 +1489,20 @@
           <div class="col-lg-6">
             <div class="cs_team cs_style_1">
               <div class="cs_team_thumb">
-                <img src="assets/img/nature/team_member_3.jpg" alt="" />
+                <img src="assets/img/team/frank-rajan.png" alt="" />
               </div>
               <div class="cs_team_right">
-                <p class="text-uppercase cs_accent_color cs_mb_1">MANAGER</p>
-                <h3 class="cs_fs_38 cs_mb_18">Jubena Lili</h3>
-                <hr class="cs_mb_12" />
-                <p class="cs_mb_20">
-                  Team component built to improve trust and culture within your.
+                <p class="text-uppercase cs_accent_color cs_mb_1">
+                  Chief Marketing Officer
                 </p>
+                <h3 class="cs_fs_38 cs_mb_18">Frank Rajan</h3>
+                <hr class="cs_mb_12" />
+                <p class="cs_mb_20">frank.rajan@agricaretech.com</p>
                 <div class="cs_team_social_list cs_heading_color">
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <!-- <a href="https://www.facebook.com/AgriCareTech"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://x.com/AgriCareTech?s=08"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/agricaretech/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/agricare-technologies"><i class="fa-brands fa-linkedin-in"></i></a> -->
                 </div>
               </div>
             </div>
@@ -1682,19 +1510,20 @@
           <div class="col-lg-6">
             <div class="cs_team cs_style_1">
               <div class="cs_team_thumb">
-                <img src="assets/img/nature/team_member_4.jpg" alt="" />
+                <img src="assets/img/team/avelino-pinto.png" alt="" />
               </div>
               <div class="cs_team_right">
-                <p class="text-uppercase cs_accent_color cs_mb_1">VOLUNTEER</p>
-                <h3 class="cs_fs_38 cs_mb_18">Zixan Bony</h3>
-                <hr class="cs_mb_12" />
-                <p class="cs_mb_20">
-                  Team component built to improve trust and culture within your.
+                <p class="text-uppercase cs_accent_color cs_mb_1">
+                  Chief Financial Officer
                 </p>
+                <h3 class="cs_fs_38 cs_mb_18">Avelino Pinto</h3>
+                <hr class="cs_mb_12" />
+                <p class="cs_mb_20">avelino@agricaretech.com</p>
                 <div class="cs_team_social_list cs_heading_color">
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  <!-- <a href="https://www.facebook.com/AgriCareTech"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://x.com/AgriCareTech?s=08"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/agricaretech/"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/company/agricare-technologies"><i class="fa-brands fa-linkedin-in"></i></a> -->
                 </div>
               </div>
             </div>
@@ -2033,23 +1862,36 @@
           <div class="cs_footer_col">
             <div class="cs_footer_widget">
               <div class="cs_footer_text_widget">
-                <img src="assets/img/agricare-logo.png" alt="Logo" style="width: auto; height: 100px" />
+                <img
+                  src="assets/img/agricare-logo.png"
+                  alt="Logo"
+                  style="width: auto; height: 100px"
+                />
                 <p>
                   We're committed to environmental awareness and action. Join us
                   in making a difference.
                 </p>
               </div>
               <div class="cs_social_btns cs_style_1">
-                <a href="#" class="cs_center">
+                <a
+                  href="https://www.linkedin.com/company/agricare-technologies"
+                  class="cs_center"
+                >
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-                <a href="#" class="cs_center">
+                <a href="https://x.com/AgriCareTech?s=08" class="cs_center">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#" class="cs_center">
-                  <i class="fa-brands fa-youtube"></i>
+                <a
+                  href="https://www.instagram.com/agricaretech/"
+                  class="cs_center"
+                >
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#" class="cs_center">
+                <a
+                  href="https://www.facebook.com/AgriCareTech"
+                  class="cs_center"
+                >
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </div>
@@ -2063,10 +1905,8 @@
                 Useful Links
               </h2>
               <ul class="cs_footer_widget_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="r-max.html">R-MAX</a></li>
-                <li><a href="n-max.html">N-MAX</a></li>
+                <li><a href="assets/docs/r-max.pdf">R-MAX</a></li>
+                <li><a href="assets/docs/n-max.pdf">N-MAX</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
@@ -2079,10 +1919,16 @@
                 Contact Info
               </h2>
               <ul class="cs_footer_widget_menu">
-                <li>1321 Gateway Atlantic City, Florida (FL), 54012</li>
-                <li><a href="tel:+444547800112">+44 454 7800 112</a></li>
                 <li>
-                  <a href="mailto:infodesk@ecozone.com">infodesk@ecozone.com</a>
+                  25 De Abril 292 1A,<br />
+                  São José de São Lázaro<br />
+                  4710-914 Braga<br />
+                  Portugal
+                </li>
+                <li>
+                  <a href="mailto:sales@agricaretech.com"
+                    >sales@agricaretech.com</a
+                  >
                 </li>
               </ul>
             </div>
@@ -2117,5 +1963,13 @@
     <script src="assets/js/gsap.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      const elem = document.querySelector("#player-button");
+
+      function hidePlayerButton() {
+        if (elem.style.display == "none") elem.style.display = "default";
+        else elem.style.display = "none";
+      }
+    </script>
   </body>
 </html>

@@ -250,43 +250,43 @@
   /*--------------------------------------------------------------
     6. Modal Video
   --------------------------------------------------------------*/
-  function modalVideo() {
-    if ($.exists('.cs_video_open')) {
-      $('body').append(`
-        <div class="cs_video_popup">
-          <div class="cs_video_popup-overlay"></div>
-          <div class="cs_video_popup-content">
-            <div class="cs_video_popup-layer"></div>
-            <div class="cs_video_popup-container">
-              <div class="cs_video_popup-align">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="about:blank"></iframe>
-                </div>
-              </div>
-              <div class="cs_video_popup-close"></div>
-            </div>
-          </div>
-        </div>
-      `);
-      $(document).on('click', '.cs_video_open', function (e) {
-        e.preventDefault();
-        var video = $(this).attr('href');
+  // function modalVideo() {
+  //   if ($.exists('.cs_video_open')) {
+  //     $('body').append(`
+  //       <div class="cs_video_popup">
+  //         <div class="cs_video_popup-overlay"></div>
+  //         <div class="cs_video_popup-content">
+  //           <div class="cs_video_popup-layer"></div>
+  //           <div class="cs_video_popup-container">
+  //             <div class="cs_video_popup-align">
+  //               <div class="embed-responsive embed-responsive-16by9">
+  //                 <iframe class="embed-responsive-item" src="about:blank"></iframe>
+  //               </div>
+  //             </div>
+  //             <div class="cs_video_popup-close"></div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     `);
+  //     $(document).on('click', '.cs_video_open', function (e) {
+  //       e.preventDefault();
+  //       var video = $(this).attr('href');
 
-        $('.cs_video_popup-container iframe').attr('src', `${video}`);
+  //       $('.cs_video_popup-container iframe').attr('src', `${video}`);
 
-        $('.cs_video_popup').addClass('active');
-      });
-      $('.cs_video_popup-close, .cs_video_popup-layer').on(
-        'click',
-        function (e) {
-          $('.cs_video_popup').removeClass('active');
-          $('html').removeClass('overflow-hidden');
-          $('.cs_video_popup-container iframe').attr('src', 'about:blank');
-          e.preventDefault();
-        },
-      );
-    }
-  }
+  //       $('.cs_video_popup').addClass('active');
+  //     });
+  //     $('.cs_video_popup-close, .cs_video_popup-layer').on(
+  //       'click',
+  //       function (e) {
+  //         $('.cs_video_popup').removeClass('active');
+  //         $('html').removeClass('overflow-hidden');
+  //         $('.cs_video_popup-container iframe').attr('src', 'about:blank');
+  //         e.preventDefault();
+  //       },
+  //     );
+  //   }
+  // }
 
   /*--------------------------------------------------------------
     7. Scroll Up
