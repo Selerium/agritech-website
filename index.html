@@ -505,10 +505,12 @@
               class="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center"
               data-src="assets/img/nature/video_block_bg.jpg"
               style="width: 80%; height: 80%; object-fit: cover"
-              onclick="hidePlayerButton()"
             ></video>
-            <span id="player-button" class="cs_player_btn cs_white_color">
-              <svg
+            <!-- <span
+              id="player-button"
+              class="cs_player_btn cs_white_color"
+            > -->
+              <!-- <svg
                 width="70"
                 height="70"
                 viewBox="0 0 70 70"
@@ -519,34 +521,8 @@
                   d="M35 0C15.7004 0 0 15.7004 0 35C0 54.2996 15.7004 70 35 70C54.2996 70 70 54.2996 70 35C70 15.7004 54.2996 0 35 0ZM35 64.1667C18.9175 64.1667 5.83333 51.0825 5.83333 35C5.83333 18.9175 18.9175 5.83333 35 5.83333C51.0825 5.83333 64.1667 18.9175 64.1667 35C64.1667 51.0825 51.0825 64.1667 35 64.1667ZM23.3333 51.4704L52.6167 35L23.3333 18.5296V51.4733V51.4704ZM29.1667 28.5017L40.7167 35L29.1667 41.4983V28.5017Z"
                   fill="currentColor"
                 />
-              </svg>
-            </span>
-            <!-- <iframe
-              src="https://drive.google.com/file/d/1Izt3A44dSL8IQhOD0y5jwaSqdUyPEXYq/preview"
-              width="640"
-              height="480"
-              allow="autoplay"
-            ></iframe> -->
-            <!-- <a
-              href="https://drive.google.com/file/d/1Izt3A44dSL8IQhOD0y5jwaSqdUyPEXYq/preview"
-              class="cs_video_block cs_style_1 cs_bg_filed cs_video_open cs_center"
-              data-src="assets/img/nature/video_block_bg.jpg"
-            >
-              <span class="cs_player_btn cs_white_color">
-                <svg
-                  width="70"
-                  height="70"
-                  viewBox="0 0 70 70"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M35 0C15.7004 0 0 15.7004 0 35C0 54.2996 15.7004 70 35 70C54.2996 70 70 54.2996 70 35C70 15.7004 54.2996 0 35 0ZM35 64.1667C18.9175 64.1667 5.83333 51.0825 5.83333 35C5.83333 18.9175 18.9175 5.83333 35 5.83333C51.0825 5.83333 64.1667 18.9175 64.1667 35C64.1667 51.0825 51.0825 64.1667 35 64.1667ZM23.3333 51.4704L52.6167 35L23.3333 18.5296V51.4733V51.4704ZM29.1667 28.5017L40.7167 35L29.1667 41.4983V28.5017Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </span>
-            </a> -->
+              </svg> -->
+            <!-- </span> -->
           </div>
           <div
             class="col-lg-6 wow fadeInRight"
@@ -1965,10 +1941,22 @@
     <script src="assets/js/main.js"></script>
     <script>
       const elem = document.querySelector("#player-button");
+      const vid = document.querySelector("video");
 
       function hidePlayerButton() {
-        if (elem.style.display == "none") elem.style.display = "default";
-        else elem.style.display = "none";
+        // if (elem.style.opacity == 0) {
+        //   elem.style.opacity = 1;
+        //   vid.play();
+        // }
+        // else {
+        //   elem.style.opacity = 0
+        //   vid.pause();
+        // }
+        if (vid.paused) {
+          elem.style.opacity = 0;
+        } else {
+          elem.style.opacity = 1;
+        }
       }
     </script>
   </body>
