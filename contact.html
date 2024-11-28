@@ -157,9 +157,14 @@
         <div class="cs_side_header_box">
           <h3 class="cs_side_header_title cs_heading_color">Subscribe</h3>
           <div class="cs_newsletter cs_style_1">
-            <form action="#" class="cs_newsletter_form">
+            <form
+              action="https://formspree.io/f/movqkrbw"
+              method="POST"
+              class="cs_newsletter_form"
+            >
               <input
                 type="email"
+                name="Newsletter Email"
                 class="cs_newsletter_input"
                 placeholder="Email address"
               />
@@ -246,29 +251,37 @@
                 Feel free to reach out to us via the contact form below, and
                 we'll do our best to respond promptly.
               </p>
-              <form action="#" class="cs_contact_form">
+              <form
+                action="https://formspree.io/f/movqkrbw"
+                method="POST"
+                class="cs_contact_form"
+              >
                 <input
                   type="text"
                   class="cs_form_field cs_mb_25"
                   placeholder="Full name *"
+                  name="Full Name"
                 />
                 <input
                   type="text"
                   class="cs_form_field cs_mb_25"
                   placeholder="Email Address *"
+                  name="Email Address"
                 />
                 <input
                   type="text"
                   class="cs_form_field cs_mb_25"
                   placeholder="Mobile Number *"
+                  name="Mobile Number"
                 />
                 <textarea
                   class="cs_form_field cs_mb_25"
                   cols="30"
                   rows="4"
                   placeholder="Write your comment *"
+                  name="Comment"
                 ></textarea>
-                <button class="cs_btn cs_style_1">
+                <button type="submit" class="cs_btn cs_style_1">
                   Send message
                   <i>
                     <svg
