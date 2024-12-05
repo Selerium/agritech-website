@@ -4848,6 +4848,7 @@ label {
   .cs_menu_toggle,
   .cs_munu_dropdown_toggle {
     display: none;
+    color: #fbfada;
   }
   .cs_nav .cs_nav_list .cs_mega_menu {
     position: relative;
