@@ -4712,7 +4712,7 @@ label {
             transform: translate(-50%, -50%);
   }
   .cs_site_header.cs_style_1:not(.cs_heading_color) .cs_nav_list > li > a {
-    color: #fff;
+    color: #fbfada;
   }
   .cs_site_header.cs_style_1:not(.cs_heading_color) .cs_nav_list > li > a:hover {
     color: var(--accent-color);
@@ -5043,7 +5043,7 @@ label {
     position: absolute;
     top: 27px;
     right: 30px;
-    color: #fff;
+    color: #fbfada;
   }
   .cs_menu_toggle span,
   .cs_menu_toggle span:before,
